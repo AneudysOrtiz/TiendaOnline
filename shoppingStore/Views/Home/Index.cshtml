@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="jumbotron">
+    <h1>Tienda En Linea</h1>
+    <p class="lead">Tienda en linea usando MVC y Entity Framework</p>
+    
+</div>
+
+<ul id="item-list">
+    @foreach(var item in Model)
+    {
+        <li><a href="@Url.Action("Details", "Store", new { id = item.ItemId })">
+               <img alt="@item.Title" src="@item.ItemArtUrl"/>
+    <span>@item.Title</span>
+               </a></li>
+    }
+
+
+</ul>
