@@ -79,3 +79,4 @@
 \\mac\home\documents\visual studio 2015\Projects\shoppingStore\shoppingStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 \\mac\home\documents\visual studio 2015\Projects\shoppingStore\shoppingStore\obj\Debug\shoppingStore.dll
 \\mac\home\documents\visual studio 2015\Projects\shoppingStore\shoppingStore\obj\Debug\shoppingStore.pdb
+\\mac\home\documents\visual studio 2015\Projects\shoppingStore\shoppingStore\obj\Debug\shoppingStore.csprojResolveAssemblyReference.cache

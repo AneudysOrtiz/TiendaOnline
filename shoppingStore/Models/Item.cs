@@ -25,7 +25,7 @@ namespace shoppingStore.Models
         public string Title { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
-        [Range(0.1, 1000, ErrorMessage = "El {0} debe estar entre 0.1 y 100")]
+        
         public decimal Price { get; set; }
 
         [DisplayName("Item Art Url")]
